@@ -1,0 +1,203 @@
+@media (min-width : 320px) and (max-width: 480px)  {
+	.left-header_logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.main-nav{
+		width: 100%;
+		padding: 7%;
+	}
+	.list-item-menu{
+		border: none;
+		padding-right: 1%;
+	}
+	.nav-list li{
+		display: none;
+		width: auto;
+		padding: 0;	
+	}
+	.icon-menu{
+		display: inline-block;
+		position: absolute;
+		right: 20px;
+		top:0;
+	}
+	#popup{
+		top: 0;
+		left: 0;
+	}
+	#close{
+		top: 0;
+		right: 0;
+		font-size: 2em;
+		padding: 5px;
+
+	}
+	form{
+		width: 80%;
+		padding: 3% 0;
+	}
+	.form-group{
+		margin-bottom: 3%;
+	}
+	label{
+		display: block;
+		text-align: center;
+	}
+	#name, #email, #tel{
+		width: 100%;
+		padding: 2%;
+	}
+	#message{
+		width: 100%;
+	}
+	.main-slider{
+		padding-bottom: 3%;
+	}
+	.bar-item{
+		line-height: 1em;
+	}
+	.menu-products{
+		padding-bottom: 3%;
+		text-align: center;
+	}
+	.left-bar-menu{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.left-bar-list{
+		padding-bottom: 4%;
+	}
+	.block-product{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.product-list{
+		padding: 2%;
+	}
+	.content-products,.left-box-txt, .right-box-txt{
+		float: none;
+		width: 100%;
+	}
+	.plagination{
+		padding: 3%;
+	}
+	.content-products{
+		padding-bottom: 2%;
+	}
+	.left-footer{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.main-footer{
+		padding-top: 2%;
+	}
+	.footer-menu{
+		display: none;
+	}
+}
+@media (min-width : 640px) and (max-width: 768px){
+	.list-item-menu{
+		padding: 0 3%;
+	}
+	.left-bar-menu{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.left-bar-list{
+		padding-bottom: 3%;
+	}
+	.content-products{
+		float: none;
+		width: 100%;
+		padding: 3% 0;
+	}
+	.block-product{
+		width: 31%;
+	}
+	.plagination{
+		padding: 0;
+	}
+	.left-box-txt, .right-box-txt{
+		text-align: center;
+		width: 45%;
+	}
+	.main-footer{
+		padding-top: 2%;
+	}
+	.left-footer{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.footer-menu{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.footer-menu li {
+		margin-right: 3%;
+		display: inline-block;
+		float: none;
+		vertical-align: middle;
+	}
+}
+
+
+@media only screen and (max-width : 768px) {
+	body{
+		font-size: 65%;
+	}
+	.container{
+		width: 98%;
+		overflow: hidden;
+		padding: 0;
+	}
+	#popup{
+		top: 0;
+		left: 0;
+	}
+	#close{
+		top: 0;
+		right: 0;
+		font-size: 2em;
+		padding: 5px;
+
+	}
+	form{
+		width: 80%;
+		padding: 3% 0;
+	}
+	.form-group{
+		margin-bottom: 3%;
+	}
+	label{
+		display: block;
+		text-align: center;
+	}
+	#name, #email, #tel{
+		width: 100%;
+		padding: 2%;
+	}
+	#message{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width : 992px) {
+	.footer-menu{
+		text-align: center;
+	}
+	.footer-menu li {
+		display: inline-block;
+		float: none;
+		vertical-align: middle;
+	}
+}
+

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>CodeIT</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/icon48.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/icon57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/icon72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/icon114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--style css-->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="libs/owlcarousel/owl.carousel.css">
+    <script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+				<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+				<![endif]-->
+    <!--- MAIN-HEADER begin-->
+    <header class="main-header">
+        <div class="top-header">
+            <div class="container clearfix">
+                <div class="left-header_logo">
+                    <a class="logo-img" href="index.html"><img src="img/logo-header.png" width="200" height="47" alt="Code IT"></a>
+                </div>
+                <div class="right-header clearfix">
+                    <ul class="phone-list">
+                        <li class="phone-item"><a class="phone-link" href="tel:+30507777777">+3 (050) 777 77 77</a> </li>
+                        <li class="phone-item"><a class="phone-link" href="tel:+30507777777">+3 (050) 777 77 77</a> </li>
+                    </ul>
+                    <!--MODAL-->
+                    <a class="btn-feedback" href="#0">Feedback</a>
+                    <div id="popup">
+                        <form name="form" method="POST">
+                            <!--hidden type form-->
+                            <input type="hidden" name="project_name" value="test-form">
+                            <input type="hidden" name="admin_email" value="example@gmail.com">
+                            <input type="hidden" name="form_subject" value="Заявка с формы!">
+                            <!--end-->
+                            <h3 class="title-form">Feedback</h3>
+                            <div class="form-group">
+                                <label class="control-label" for="name">Name <span>*</span> </label>
+                                <input id="name" type="text" name="name" required>
+                                <p class="error-box"></p>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="tel">Phone <span>*</span></label>
+                                <input id="tel" type="tel" name="tel" required>
+                                <p class="error-box"></p>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="email">Email <span>*</span></label>
+                                <input id="email" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                               
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="message">Text <span>*</span></label>
+                                <textarea id="message" name="message" rows="7" minlength="5" required></textarea>
+                                <p class="error-box"></p>
+                            </div>
+                            <div class="form-group clearfix">
+                                <button type="submit" class="btn-submit">Submit</button>
+                            </div>
+                        </form>
+                        <a href="#" id="close">X</a>
+                    </div>
+                    <div id="cover"></div>
+                    <!-- end modal -->
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-list clearfix">
+                    <li class="list-item-menu"><a class="link-item" href="#" title="Home">Home</a></li>
+                    <li class="list-item-menu"><a class="link-item" href="#" title="Catalog">Catalog</a></li>
+                    <li class="list-item-menu"><a class="link-item" href="#" title="Shipping and paynment">Shipping and paynment</a></li>
+                    <li class="list-item-menu"><a class="link-item" href="#" title="Price">Price</a></li>
+                    <li class="list-item-menu"><a class="link-item" href="#" title="Contacts">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="icon-menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+    </header>
+    <!--SLIDER BEGIN-->
+    <section class="main-slider">
+        <div id="slider" class="owl-carousel">
+            <div class="slide"><img src="img/slide1.png" alt="slide"></div>
+            <div class="slide"><img src="img/slide3.png" alt="slide"></div>
+            <div class="slide"><img src="img/slide4.png" alt="slide"></div>
+            <div class="slide"><img src="img/slide6.png" alt="slide"></div>
+        </div>
+    </section>
+    <!-- SLIDER END -->
+    <div class="container clearfix">
+        <ul class="menu-products clearfix">
+            <li><a class="active-menu-product" href="#">Home</a></li>
+            <li><a class="active-menu-product" href="#">Catalog</a></li>
+            <li><a class="link" href="#">Category name</a></li>
+        </ul>
+        <!--LEFT-BAR-->
+        <aside class="left-bar-menu">
+            <ul class="left-bar-list ">
+                <li class="bar-item"><a class="bar-link" href="#">Cars</a></li>
+                <li class="bar-item"><a class="bar-link-sub" href="#">Household Appliances</a></li>
+                <ul class="sub-list">
+                    <li><a class="bar-link-active" href="#">Microwaves</a></li>
+                    <li><a class="bar-link" href="#">Fridges</a></li>
+                    <li><a class="bar-link" href="#">Посудомоечные машины</a></li>
+                    <li><a class="bar-link" href="#">Dishwashers</a></li>
+                </ul>
+                <li class="bar-item"><a class="bar-link" href="#">Mobile Equipment</a></li>
+                <li class="bar-item"><a class="bar-link" href="#">Computers</a></li>
+                <li class="bar-item"><a class="bar-link" href="#">Clothing</a></li>
+                <li class="bar-item"><a class="bar-link" href="#">Real Estate</a></li>
+                <li class="bar-item">
+                    <a class="bar-link" href="#"></a>
+                </li>
+            </ul>
+            <a href="#" class="price-list"><i class="price-img"></i>Price List</a>
+        </aside>
+        <!--CONTENT-PRODUCTS -->
+        <div class="content-products">
+            <div class="product-wrap clearfix">
+                <div class="block-product">
+                    <div class="product-list">
+                        <figure class="img-product"><img src="img/microw1.png" width="194" height="123" alt="micro"></figure>
+                        <p class="description-product">Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                    </div>
+                    <p class="price-product">$ 550.95
+                        <a class="basket-btn" href="#"><img src="img/basket.png" alt=""></a>
+                    </p>
+                </div>
+                <div class="block-product">
+                    <div class="product-list">
+                        <figure class="img-product"><img src="img/microw1.png" width="194" height="123" alt="micro"></figure>
+                        <p class="description-product">Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                    </div>
+                    <p class="price-product">$ 350.95
+                        <a class="basket-btn" href="#"><img src="img/basket.png" alt=""></a>
+                    </p>
+                </div>
+                <div class="block-product">
+                    <div class="product-list">
+                        <figure class="img-product"><img src="img/microw1.png" width="194" height="123" alt="micro"></figure>
+                        <p class="description-product">Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                    </div>
+                    <p class="price-product">$ 350.95
+                        <a class="basket-btn" href="#"><img src="img/basket.png" alt=""></a>
+                    </p>
+                </div>
+                <div class="block-product">
+                    <div class="product-list">
+                        <figure class="img-product"><img src="img/microw1.png" width="194" height="123" alt="micro"></figure>
+                        <p class="description-product">Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                    </div>
+                    <p class="price-product">$ 550.95
+                        <a class="basket-btn" href="#"><img src="img/basket.png"  alt=""></a>
+                    </p>
+                </div>
+                <div class="block-product">
+                    <div class="product-list">
+                        <figure class="img-product"><img src="img/microw1.png"  width="194" height="123" alt="micro"></figure>
+                        <p class="description-product">Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                    </div>
+                    <p class="price-product">$ 350.95
+                        <a class="basket-btn" href="#"><img src="img/basket.png" alt=""></a>
+                    </p>
+                </div>
+                <div class="block-product">
+                    <div class="product-list">
+                        <figure class="img-product"><img src="img/microw1.png" width="194" height="123" alt="micro"></figure>
+                        <p class="description-product">Lorem ipsum dolor sit amet, consectetur doler adipiscing elit.</p>
+                    </div>
+                    <p class="price-product">$ 350.95
+                        <a class="basket-btn" href="#"><img src="img/basket.png" alt=""></a>
+                    </p>
+                </div>
+            </div>
+            <ul class="plagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a class="active-plag" href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+            </ul>
+            <div class="content-box clearfix">
+                <p class="left-box-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper lacinia auctor. Aliquam vitae mi ornare, tincidunt risus sed, euismod nisl. Nullam imperdiet nisi ut est imperdiet posuere. Cras sodales molestie enim eget porta. Vestibulum scelerisque blandit pulvinar. Donec condimentum malesuada neque a blandit. In sodales ex ac pharetra dictum. In interdum facilisis justo. Maecenas sit amet mi vitae purus ultrices fermentum. In vel orci erat. Suspendisse potenti. Donec arcu nunc, imperdiet id neque nec, mollis viverra nisl. Fusce egestas ligula vitae tristique dignissim.</p>
+                <p class="right-box-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper lacinia auctor. Aliquam vitae mi ornare, tincidunt risus sed, euismod nisl. Nullam imperdiet nisi ut est imperdiet posuere. Cras sodales molestie enim eget porta. Vestibulum scelerisque blandit pulvinar. Donec condimentum malesuada neque a blandit. In sodales ex ac pharetra dictum. In interdum facilisis justo. Maecenas sit amet mi vitae purus ultrices fermentum. In vel orci erat. Suspendisse potenti. Donec arcu nunc, imperdiet id neque nec, mollis viverra nisl. Fusce egestas ligula vitae tristique dignissim.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <div class="left-footer">
+                <p>&copy Code IT 2012-2013</p>
+                <p>All Right Reserveds.</p>
+            </div>
+            <ul class="footer-menu clearfix">
+                <li><a class="" href="#" title="Home">Home</a></li>
+                <li><a class="" href="#" title="Catalog">Catalog</a></li>
+                <li><a class="" href="#" title="Shipping and paynment">Shipping and paynment</a></li>
+                <li><a class="" href="#" title="Price">Price</a></li>
+                <li><a class="" href="#" title="Contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!--back to top-->
+    <a href="#0" class="cd-top">Top</a>
+    <!--pre-loader-->
+    <div class="loader">
+        <div class="loader_inner">
+            <div class="pacman"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+    <!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+ 
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+    <script>
+    (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function() {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X', 'auto');
+    ga('send', 'pageview');
+    </script>-->
+</body>
+
+</html>

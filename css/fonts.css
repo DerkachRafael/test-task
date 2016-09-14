@@ -1,0 +1,20 @@
+/* font-family: "ArimoRegular"; */
+@font-face {
+    font-family: "ArimoRegular";
+    src: url("../fonts/ArimoRegular/ArimoRegular.eot");
+    src: url("../fonts/ArimoRegular/ArimoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArimoRegular/ArimoRegular.woff") format("woff"),
+    url("../fonts/ArimoRegular/ArimoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArimoBold"; */
+@font-face {
+    font-family: "ArimoBold";
+    src: url("../fonts/ArimoBold/ArimoBold.eot");
+    src: url("../fonts/ArimoBold/ArimoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArimoBold/ArimoBold.woff") format("woff"),
+    url("../fonts/ArimoBold/ArimoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

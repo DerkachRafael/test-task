@@ -265,7 +265,8 @@ body {
 	background: #fff;
 	position: fixed;
 	top: 10%;
-	left: 33%;
+	left: 50%;
+	transform: translateX(-50%);
 	display: none;
 	z-index: 999;
 	-webkit-overflow-scrolling: touch;

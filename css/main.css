@@ -334,8 +334,9 @@ body {
   background: #fff;
   position: fixed;
   top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
   display: none;
   z-index: 999;
   -webkit-overflow-scrolling: touch;
